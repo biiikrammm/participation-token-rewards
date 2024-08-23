@@ -1,4 +1,4 @@
-# ParticipationToken (PTK) - ERC-20 Token Smart Contract
+# ParticipationToken (PTK) - ERC-20 Token Smart Contract - Educhain project
 
 ![image](https://github.com/user-attachments/assets/cf05ef89-4a2c-4d80-aaf9-6cc67307004a)
 
