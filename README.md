@@ -1,5 +1,7 @@
 # ParticipationToken (PTK) - ERC-20 Token Smart Contract
 
+![image](https://github.com/user-attachments/assets/cf05ef89-4a2c-4d80-aaf9-6cc67307004a)
+
 ## Vision
 
 The ParticipationToken (PTK) project aims to create a simple and effective ERC-20 token that can be used for various decentralized applications (DApps) and blockchain-based projects. PTK is designed to be a versatile token that facilitates easy transactions, token distribution, and integration into existing systems, promoting community participation and engagement.
@@ -7,41 +9,46 @@ The ParticipationToken (PTK) project aims to create a simple and effective ERC-2
 ## Flowchart
 
 ```
-+-------------------------------------------------------+
-|                  ParticipationToken                   |
-+-------------------------------------------------------+
-| Constructor:                                          |
-| - Initializes total supply and assigns to deployer    |
-|                                                       |
-| +---------------------------------------------------+ |
-| | mint()                                            | |
-| | - Mint new tokens to a specified address          | |
-| | - Updates total supply and balance of the address | |
-| +---------------------------------------------------+ |
-|                                                       |
-| +---------------------------------------------------+ |
-| | transfer()                                        | |
-| | - Transfer tokens to another address              | |
-| | - Updates sender and recipient balances           | |
-| +---------------------------------------------------+ |
-|                                                       |
-| +---------------------------------------------------+ |
-| | approve()                                         | |
-| | - Approve a spender to use a specified amount     | |
-| | - Sets allowance for spender                      | |
-| +---------------------------------------------------+ |
-|                                                       |
-| +---------------------------------------------------+ |
-| | transferFrom()                                    | |
-| | - Transfer tokens on behalf of an approved owner  | |
-| | - Updates balances and reduces allowance          | |
-| +---------------------------------------------------+ |
-+-------------------------------------------------------+
++--------------------------------------------------+
+|               ParticipationToken                 |
+|--------------------------------------------------|
+|                                                  |
+| Constructor: Initializes total supply            |
+| - Sets totalSupply and assigns to the owner      |
+| - Emits Transfer event                           |
+|                                                  |
+| +----------------------------+                   |
+| | User                        |                  |
+| +----------------------------+                   |
+| |                            |                   |
+| | Mint                       |                   |
+| | - Increases totalSupply    |                   |
+| | - Updates balance          |                   |
+| | - Emits Transfer event     |                   |
+| |                            |                   |
+| | Transfer                   |                   |
+| | - Validates balance        |                   |
+| | - Updates balances         |                   |
+| | - Emits Transfer event     |                   |
+| |                            |                   |
+| | Approve                    |                   |
+| | - Sets allowance           |                   |
+| | - Emits Approval event     |                   |
+| |                            |                   |
+| | TransferFrom               |                   |
+| | - Validates allowance      |                   |
+| | - Updates balances         |                   |
+| | - Emits Transfer event     |                   |
+| +----------------------------+                   |
++--------------------------------------------------+
+
 ```
 
 ## Contract Address
 
 **Deployed Contract Address:** 0x3abbb42d822081569fc97dd113231149b10272dc
+![image](https://github.com/user-attachments/assets/709c389e-0b93-496f-bf0a-706d7aeab8b4)
+
 
 ## Future Scope
 
