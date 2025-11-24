@@ -64,6 +64,5 @@ For any inquiries or support regarding the ParticipationToken project, please co
 - **Name**: Bikram Roy Choudhury
 - **Email**: bikram.rc200615@gmail.com
 - **GitHub**: https://github.com/biiikrammm
-- **𝐋𝐢𝐧𝐤𝐞𝐝𝐢n**: https://www.linkedin.com/in/bikram-roy-choudhury-b01560321/
-
+- **𝐋𝐢𝐧𝐤𝐞𝐝𝐢n**: https://www.linkedin.com/in/bikram-roy-choudhury/
 Feel free to reach out with any questions or collaboration opportunities!
